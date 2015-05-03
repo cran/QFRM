@@ -1,0 +1,15 @@
+b087c9114071617f0f3a00c3e631e7e3 *DESCRIPTION
+8e401cc79a1507e5f8828802c69c7b08 *NAMESPACE
+c243b3bb6f640a583f335a89fd322cae *R/QFRM.R
+d6ab98a1a7508e76fc453b5301fce534 *man/BOPM.Rd
+243b56641f7c271b3d0b2f399cca5e8c *man/BOPM_Eu.Rd
+4beacae6ca7a84f47a9a0699206d212d *man/BS.Rd
+3fe9b7ef74039acff156cfd4db8e1586 *man/BS_Simple.Rd
+42f3fddefba4206083bac24feb0ee44f *man/Opt.Rd
+060ead6c05fcc77e44a10cfa38b37d73 *man/OptPos.Rd
+b5017345381b28112189dacca7867f7b *man/OptPx.Rd
+82d79028d39ebde51cc754fdb22c9b53 *man/Profit.Rd
+995447ca6d4da51757105bb8b22c8732 *man/as.OptPos.Rd
+c0a91a55d1453fef006c55dfb36b872a *man/is.Opt.Rd
+a29d1f91f7e417d23218b4be31780350 *man/is.OptPos.Rd
+f70c13878b0bf8cae405e69112dd6922 *man/is.OptPx.Rd

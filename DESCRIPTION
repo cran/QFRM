@@ -1,0 +1,46 @@
+Package: QFRM
+Type: Package
+Title: Pricing of Vanilla and Exotic Option Contracts
+Version: 1.0
+Date: 2015-05-03
+Maintainer: Oleg Melnikov <XisReal@gmail.com>
+Authors@R: c(
+  person("Oleg", "Melnikov", role = c("aut", "cre"), email = "XisReal@gmail.com"),
+  person("Max", "Lee", role = "ctb", email = "max.lee@rice.edu"),
+  person("Robert", "Abramov", role = "ctb", email = "rha1@rice.edu"),
+  person("Richard", "Huang", role = "ctb", email = "richard.b.huang@rice.edu"),
+  person("Liu", "Tong", role = "ctb", email = "tong.liu@rice.edu"),
+  person("Jake", "Kornblau", role = "ctb", email = "jake.a.kornblau@rice.edu"),
+  person("Xinnan", "Lu", role = "ctb", email = "xinnan.lu@rice.edu"),
+  person("Kiryl", "Novikau", role = "ctb", email = "kiryl.novikau@rice.edu"),
+  person("Tongyue", "Luo", role = "ctb", email = "tongyue.luo@rice.edu"),
+  person("Le", "You", role = "ctb", email = "le.you@rice.edu"),
+  person("Jin", "Chen", role = "ctb", email = "jin.chen@rice.edu"),
+  person("Chengwei", "Ge", role = "ctb", email = "chengwei.ge@rice.edu"),
+  person("Jiayao", "Huang", role = "ctb", email = "jiayao.huang@rice.edu")
+  )
+Description: 
+  Option pricing (financial derivatives) techniques mainly following textbook 'Options, Futures and Other Derivatives', 9ed by John C.Hull, 2014. Prentice Hall. Implementations are via binomial tree option model (BOPM), Black-Scholes model, Monte Carlo simulations, etc. 
+  This package is a result of Quantitative Financial Risk Management course (STAT 449 and STAT 649) at Rice University, Houston, TX, USA, taught by Oleg Melnikov, statistics PhD student, as of Spring 2015.
+Repository: CRAN
+License: GPL (>= 2)
+URL: http://Oleg.Rice.edu
+NeedsCompilation: no
+Depends: R (>= 2.14.0)
+LazyLoad: yes
+LazyData: yes
+Packaged: 2015-05-07 04:28:57 UTC; Oleggio
+Author: Oleg Melnikov [aut, cre],
+  Max Lee [ctb],
+  Robert Abramov [ctb],
+  Richard Huang [ctb],
+  Liu Tong [ctb],
+  Jake Kornblau [ctb],
+  Xinnan Lu [ctb],
+  Kiryl Novikau [ctb],
+  Tongyue Luo [ctb],
+  Le You [ctb],
+  Jin Chen [ctb],
+  Chengwei Ge [ctb],
+  Jiayao Huang [ctb]
+Date/Publication: 2015-05-07 07:48:37
