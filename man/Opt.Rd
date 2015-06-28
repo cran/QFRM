@@ -38,7 +38,7 @@ An S3 object constructor for an option contract (financial derivative)
 }
 \examples{
 Opt()  #Creates an S3 object for an option contract
-Opt(Right='Put')   #See J.C.Hull, OFOD'2014, 9-ed, Fig.13.10, p.289
+Opt(Right='Put')   #See J. C. Hull, OFOD'2014, 9-ed, Fig.13.10, p.289
 }
 \author{
 Oleg Melnikov, Department of Statistics, Rice University, Spring 2015

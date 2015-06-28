@@ -46,7 +46,7 @@ Robert Abramov, Department of Statistics, Rice University, Spring 2015
 }
 \references{
 Hull, J.C., \emph{Options, Futures and Other Derivatives}, 9ed, 2014. Prentice Hall.
-ISBN 978-0-13-345631-8, \url{http://www-2.rotman.utoronto.ca/~hull/ofod/index.html}.
+ISBN 978-0-13-345631-8, \url{http://www-2.rotman.utoronto.ca/~hull/ofod}. \url{http://amzn.com/0133456315}
 \url{http://www.theresearchkitchen.com/archives/106}
 }
 

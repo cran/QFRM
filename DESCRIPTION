@@ -1,8 +1,8 @@
 Package: QFRM
 Type: Package
 Title: Pricing of Vanilla and Exotic Option Contracts
-Version: 1.0
-Date: 2015-05-03
+Version: 1.0.1
+Date: 2015-06-28
 Maintainer: Oleg Melnikov <XisReal@gmail.com>
 Authors@R: c(
   person("Oleg", "Melnikov", role = c("aut", "cre"), email = "XisReal@gmail.com"),
@@ -17,7 +17,8 @@ Authors@R: c(
   person("Le", "You", role = "ctb", email = "le.you@rice.edu"),
   person("Jin", "Chen", role = "ctb", email = "jin.chen@rice.edu"),
   person("Chengwei", "Ge", role = "ctb", email = "chengwei.ge@rice.edu"),
-  person("Jiayao", "Huang", role = "ctb", email = "jiayao.huang@rice.edu")
+  person("Jiayao", "Huang", role = "ctb", email = "jiayao.huang@rice.edu"),
+  person("Kim", "Raath", role = "ctb", email = "kcr2@rice.edu")
   )
 Description: 
   Option pricing (financial derivatives) techniques mainly following textbook 'Options, Futures and Other Derivatives', 9ed by John C.Hull, 2014. Prentice Hall. Implementations are via binomial tree option model (BOPM), Black-Scholes model, Monte Carlo simulations, etc. 
@@ -29,7 +30,8 @@ NeedsCompilation: no
 Depends: R (>= 2.14.0)
 LazyLoad: yes
 LazyData: yes
-Packaged: 2015-05-07 04:28:57 UTC; Oleggio
+Imports: stats,methods,graphics
+Packaged: 2015-07-27 22:28:29 UTC; Oleggio
 Author: Oleg Melnikov [aut, cre],
   Max Lee [ctb],
   Robert Abramov [ctb],
@@ -42,5 +44,10 @@ Author: Oleg Melnikov [aut, cre],
   Le You [ctb],
   Jin Chen [ctb],
   Chengwei Ge [ctb],
-  Jiayao Huang [ctb]
-Date/Publication: 2015-05-07 07:48:37
+  Jiayao Huang [ctb],
+  Kim Raath [ctb]
+X-CRAN-Comment: Archived on 2015-05-08 as the maintainer
+        <oleg.melnikov@rice.edu> said he is still collecting functions
+        from his students and cleaning up the apparently unfinished
+        package.
+Date/Publication: 2015-07-28 00:48:16

@@ -19,7 +19,7 @@ Computes payout/profit values
 }
 \examples{
 Profit(o=Opt())
-plot( print( Profit(OptPos(Prem=2.5), S=40:60)), type='l'); grid()
+graphics::plot( print( Profit(OptPos(Prem=2.5), S=40:60)), type='l'); grid()
 }
 \author{
 Oleg Melnikov, Department of Statistics, Rice University, Spring 2015

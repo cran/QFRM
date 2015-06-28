@@ -4,7 +4,7 @@
 \alias{OptPx}
 \title{\code{OptPx} object constructor}
 \usage{
-OptPx(o = Opt(), r = 0.05, q = 0, rf = 0, vol = 0.3, n = 2)
+OptPx(o = Opt(), r = 0.05, q = 0, rf = 0, vol = 0.3, NSteps = 3)
 }
 \arguments{
 \item{o}{An object of class \code{Opt}}
@@ -17,7 +17,7 @@ OptPx(o = Opt(), r = 0.05, q = 0, rf = 0, vol = 0.3, n = 2)
 
 \item{vol}{A volaility (as Sd.Dev, sigma)}
 
-\item{n}{A number of time steps in BOPM calculation}
+\item{NSteps}{A number of time steps in BOPM calculation}
 }
 \value{
 A list of class \code{OptPx} with parameters supplied to \code{Opt} and \code{OptPx} constructors

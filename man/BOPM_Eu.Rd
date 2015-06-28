@@ -18,10 +18,10 @@ A helper function to price European options via a vectorized (fast, memory effic
 \examples{
 #Fig.13.11, Hull/9e/p291:
 o = Opt(Style='European', Right='Call', S0=810, ttm=.5, K=800)
-(o <- BOPM_Eu( OptPx(o, r=.05, q=.02, vol=.2, n=2)))$PxBT
+(o <- BOPM_Eu( OptPx(o, r=.05, q=.02, vol=.2, NSteps=2)))$PxBT
 
 o = Opt('Eu', 'C', 0.61, .5, 0.6, SName='USD/AUD')
-o = OptPx(o, r=.05, q=.02, vol=.12, n=2)
+o = OptPx(o, r=.05, q=.02, vol=.12, NSteps=2)
 (o <- BOPM_Eu(o))$PxBT
 }
 \author{
